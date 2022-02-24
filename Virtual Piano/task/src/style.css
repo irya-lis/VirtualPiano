@@ -1,0 +1,70 @@
+body {
+  background: #2F4F4F;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.white-keys {
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 170px;
+}
+
+.white-keys kbd {
+  background-color: white;
+  color: black;
+  height: 60px;
+  width: 68px;
+  border: 2px solid grey;
+  text-align: center;
+  padding-top: 250px;
+  font-family: 'Hiragino Sans GB', cursive;
+}
+
+.black-keys {
+  position: absolute;
+  top: 0;
+  align-items: center;
+  margin-top: 170px;
+
+}
+.black-keys kbd {
+  background-color: black;
+  color: white;
+  display: inline-block;
+  height: 20px;
+  width: 50px;
+  text-align: center;
+  padding-top: 150px;
+  font-family: 'Dancing Script', cursive;
+}
+
+
+.black-keys kbd:nth-child(2) {
+  margin-left: 25px;
+}
+
+.black-keys kbd:nth-child(3) {
+  margin-left: 80px;
+}
+.black-keys kbd:nth-child(4) {
+  margin-left: 20px;
+}
+.black-keys kbd:nth-child(5) {
+  margin-left: 25px;
+}
+
+
+
+
+
+
+
